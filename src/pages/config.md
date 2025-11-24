@@ -1,10 +1,9 @@
 - pathPrefix:
     - /app-builder/docs/
 
-- home:
-    - [App Builder](/app-builder)
 
 - pages:
+    - [App Builder](../)
     - [Overview](intro_and_overview/index.md)
     - [Getting Started](get_started/index.md)
     - [Guides](guides/index.md)
@@ -16,7 +15,8 @@
         - [What is App Builder](intro_and_overview/what-is-app-builder.md) 
         - [Business Case](intro_and_overview/business-case.md) 
         - [FAQ](intro_and_overview/faq.md) 
-        - [Community](intro_and_overview/community.md) 
+        - [Community](intro_and_overview/community.md)
+    - [Release Notes](intro_and_overview/release-notes.md)
     - [Quick Start](get_started/index.md) 
         - [App Builder Getting Started](get_started/app_builder_get_started/app-builder-intro.md) 
             - [Setting Up](get_started/app_builder_get_started/set-up.md) 
@@ -32,7 +32,7 @@
             - [Resources](get_started/runtime_getting_started/resources.md) 
             - [Setup](get_started/runtime_getting_started/setup.md) 
             - [Understanding Runtime](get_started/runtime_getting_started/understanding-runtime.md) 
-    - [Develop](guides/index.md) 
+    - [Develop](guides/index.md)
         - [References](guides/references.md) 
         - [App Builder Guides](guides/app_builder_guides/index.md) 
             - [Architecture Overview](guides/app_builder_guides/architecture_overview/architecture-overview.md) 
@@ -46,6 +46,7 @@
                 - [Splunk Cloud](guides/app_builder_guides/application_logging/splunk-cloud.md) 
                 - [Splunk Enterprise](guides/app_builder_guides/application_logging/splunk-enterprise.md) 
             - [Configuration](guides/app_builder_guides/configuration/configuration.md) 
+                - [Sequences](guides/app_builder_guides/configuration/sequences.md) 
                 - [Webpack Configuration](guides/app_builder_guides/configuration/webpack-configuration.md) 
             - [Deployment](guides/app_builder_guides/deployment/deployment.md) 
                 - [CI/CD overview](guides/app_builder_guides/deployment/cicd-for-app-builder-apps.md) 
